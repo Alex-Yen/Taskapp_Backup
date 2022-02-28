@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_add_user"
+        android:icon="@drawable/add_user_icon"
+        android:title="+Add user" />
+
+    <item
+        android:id="@+id/nav_add_job"
+        android:icon="@drawable/add_job_icon"
+        android:title="+Add job" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout_icon"
+        android:title="Logout" />
+
+</menu>

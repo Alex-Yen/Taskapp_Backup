@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TaskApp01</string>
+    <string-array name="spinner_user_type">
+        <item>admin</item>
+        <item>user</item>
+        <item>contractor</item>
+        <item>landlord</item>
+    </string-array>
+
+    <string name="image">image</string>
+    <string name="camera">Camera</string>
+    <string name="folder">Folder</string>
+    <string name="done">Done</string>
+</resources>

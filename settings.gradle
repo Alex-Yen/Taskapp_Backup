@@ -1,0 +1,2 @@
+include ':test00'
+rootProject.name = "taskapp_prototype"

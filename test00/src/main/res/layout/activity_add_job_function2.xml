@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Location_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="499dp" />
+
+            <EditText
+                android:id="@+id/Location_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="527dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <LinearLayout
+                    android:id="@+id/job_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10sp" />
+
+                    <TextView
+                        android:id="@+id/Electric"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Electric"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change lightbulb" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change starter" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change light set" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change fan + regulator" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change regulator" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change 13A socket" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change 15A socket" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change water heater" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change exhaust fan (set)" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix DB Board (Day time)" />
+
+                    <CheckBox
+                        android:id="@+id/electric_item11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix DB Board (Night time)" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10sp" />
+
+                    <TextView
+                        android:id="@+id/Pipe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pipe"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/pipe_item01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix pipe leakage" />
+
+                    <CheckBox
+                        android:id="@+id/pipe_item02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change water tap" />
+
+                    <CheckBox
+                        android:id="@+id/pipe_item03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change sink water tap" />
+
+                    <CheckBox
+                        android:id="@+id/pipe_item04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change bottle trap" />
+
+                    <CheckBox
+                        android:id="@+id/pipe_item05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change cistern" />
+
+                    <CheckBox
+                        android:id="@+id/pipe_item06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change siphon" />
+
+                    <CheckBox
+                        android:id="@+id/pipe_item07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change controller" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10sp" />
+
+                    <TextView
+                        android:id="@+id/Door"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Door"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/door_item01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change door latch" />
+
+                    <CheckBox
+                        android:id="@+id/door_item02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change lock (circle)" />
+
+                    <CheckBox
+                        android:id="@+id/door_item03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change lock handle" />
+
+                    <CheckBox
+                        android:id="@+id/door_item04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix door/frame" />
+
+                    <CheckBox
+                        android:id="@+id/door_item05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change door set" />
+
+                    <CheckBox
+                        android:id="@+id/door_item06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change wooden door frame to metal type" />
+
+                    <CheckBox
+                        android:id="@+id/door_item07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change swing type PVC door" />
+
+                    <CheckBox
+                        android:id="@+id/door_item08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change sliding type PVC door + cement frame" />
+
+                    <CheckBox
+                        android:id="@+id/door_item09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix toilet/outlet blockage" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10sp" />
+
+                    <TextView
+                        android:id="@+id/Window"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Window"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/window_item01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix/change naco window" />
+
+                    <CheckBox
+                        android:id="@+id/window_item02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change wooden window frame to metal type" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10sp" />
+
+                    <TextView
+                        android:id="@+id/Paint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Paint"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/paint_item01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Paint small room" />
+
+                    <CheckBox
+                        android:id="@+id/paint_item02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Paint medium room" />
+
+                    <CheckBox
+                        android:id="@+id/paint_item03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Paint big room" />
+
+                    <CheckBox
+                        android:id="@+id/paint_item04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Paint metal grille" />
+
+                    <CheckBox
+                        android:id="@+id/paint_item05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Paint metal gate" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10sp" />
+
+                    <TextView
+                        android:id="@+id/Clean_house"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Clean house"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/clean_item01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Clean house apartment" />
+
+                    <CheckBox
+                        android:id="@+id/clean_item02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Throw rubbish" />
+
+                    <CheckBox
+                        android:id="@+id/clean_item03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hire 1 ton lorry" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10sp" />
+
+                    <TextView
+                        android:id="@+id/Others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Others"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/others_item01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix channel and roof" />
+
+                    <CheckBox
+                        android:id="@+id/others_item02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix netting/ change house padlock" />
+
+                    <CheckBox
+                        android:id="@+id/others_item03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fix padlock" />
+
+                    <CheckBox
+                        android:id="@+id/others_item04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lock room for unpaid rent" />
+
+                    <CheckBox
+                        android:id="@+id/others_item05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Spray white ants/grass poison" />
+
+                    <CheckBox
+                        android:id="@+id/others_item06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Others:" />
+
+                    <EditText
+                        android:id="@+id/others_ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+            </ScrollView>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <Button
+                android:id="@+id/next02_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                tools:layout_editor_absoluteY="2dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taskapp01">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name=".User.job_detail_edit_user" />
+        <activity android:name=".Admin.job_detail_edit_admin" />
+        <activity android:name=".User.job_detail_contractor" />
+        <activity android:name=".User.job_detail_user" />
+        <activity android:name=".User.add_job_function_user" />
+        <activity android:name=".User.jobdetail_viewonly" />
+        <activity android:name=".User.Landlord" />
+        <activity android:name=".Admin.job_detail_admin" />
+        <activity android:name=".job_detail_addjob" />
+        <activity android:name=".Admin.add_job_function" />
+        <activity android:name=".add_job_function2" />
+        <activity android:name=".Admin.add_user_function" />
+        <activity android:name=".User.Contractor" />
+        <activity android:name=".User.User" />
+        <activity android:name=".Admin.Admin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.taskapp01.Image.ImagesActivity"
+            android:configChanges="orientation|screenSize">
+        </activity>
+        <activity
+            android:name="com.example.taskapp01.Image.FullImageActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"
+            android:usesCleartextTraffic="true"/>
+    </application>
+
+</manifest>

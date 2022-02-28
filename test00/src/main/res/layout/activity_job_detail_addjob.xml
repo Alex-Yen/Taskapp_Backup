@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".job_detail_addjob">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="0dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Usertype_fx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usertype"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Username_fx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/House_fx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="House"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/House_Area_fx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="House Area"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Tenant_tel_no_fx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tenant tel no"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Job_fx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Job"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Location_fx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <!--androidx.cardview.widget.CardView
+                android:id="@+id/cv_slider_mainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorEnabled="true"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="1" />
+
+            </-androidx.cardview.widget.CardView-->
+
+            <Button
+                android:id="@+id/upload_img_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Image" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

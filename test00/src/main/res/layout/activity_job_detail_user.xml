@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.job_detail_user">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="0dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Usertype02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usertype"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Username02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/House02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="House"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/House_Area02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="House Area"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Tenant_tel_no02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tenant tel no"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Job02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Job"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <TextView
+                android:id="@+id/Location02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <ToggleButton
+                android:id="@+id/Message02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="Unread Task"
+                android:textOn="Task seen"
+                android:textSize="18sp"
+                android:layout_gravity="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <ToggleButton
+                android:id="@+id/Job_Status02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="Work in Progress"
+                android:textOn="Verify job complete"
+                android:textSize="18sp"
+                android:layout_gravity="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <Button
+                android:id="@+id/Edit02_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <Button
+                android:id="@+id/Remove02_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
